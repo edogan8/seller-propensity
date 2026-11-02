@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+
+# Python and tool caches
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and model artifacts (reproducible from code)
+data/
+models/
+mlruns/
+
+# Secrets
+kaggle.json
+.env
+
+# OS files
+.DS_Store
+
+# Personal
+CLAUDE.md
+notes/
