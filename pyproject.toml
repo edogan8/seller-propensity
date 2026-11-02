@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seller-propensity"
+version = "0.1.0"
+description = "Seller-level propensity model on the Olist e-commerce dataset"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas",
+    "numpy",
+    "pyyaml",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+    "ipykernel",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
